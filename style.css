@@ -1,0 +1,31 @@
+li{
+    font-size: 20px;
+    font-style: italic;
+    color:#db1266
+}
+img{
+    width:100%;
+    height: 100%;
+}
+header{
+    font-family:'Courier New', Courier, monospace;
+    font-size:32px;
+    text-align: center;
+}
+img.filtered-image {
+    animation: sepiaFilter 30s forwards;
+}
+@keyframes sepiaFilter {
+    from{
+        filter:invert(o%);
+    }
+
+    to {
+        filter:invert(100%);
+    }
+}
+h2{
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-variant-caps: titling-caps;
+}
